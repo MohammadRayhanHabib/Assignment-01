@@ -250,6 +250,7 @@ main p{
     text-align: left;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.03) 2.884%, rgba(16, 16, 16, 0) 101.034%), 
         url('../assets/quote-bg.png');
+        
     background-color: rgba(255, 255, 255, 1);
     border-radius: 15px;
     margin: 24px 10%;
