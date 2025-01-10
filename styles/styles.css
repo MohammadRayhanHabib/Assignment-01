@@ -183,6 +183,8 @@ main p{
     max-width: 410.67;
     max-height: 325px;
     margin-top: 80px ;
+    
+    
 }
 
 .card-2nd img {
@@ -202,6 +204,7 @@ main p{
     text-align: left;
     margin-top: 32px;
     
+   
 }
 
 .card-2nd h3{
@@ -260,3 +263,34 @@ main p{
 
 
 
+.main-2nd-part{
+    text-align: left;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 15px;
+    margin: 24px 10%;
+    padding: 24px; 
+    height: 256px;
+    margin-top: 32px;
+}
+
+.main-2nd-part p{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.8);
+    margin-top: 500px;
+    
+    margin: 24px;
+}
+
+.main-2nd-part h3{
+    font-size: 20px;
+    margin-top: 2px;
+    margin-left: 23px ;
+}
+
+.main-2nd-part h6{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.8);
+    
+    padding: 20px;
+
+}
