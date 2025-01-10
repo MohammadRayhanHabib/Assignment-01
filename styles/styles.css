@@ -108,11 +108,11 @@ body{
 
 .Optional-section-content {
     display: flex;
-    justify-content:space-evenly ;
-    gap:24px;
-    align-items: center;
-    /* margin: 20px 10%; */
-    margin:32px 100px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 23px 10%;
+    height: 256px;
     
 }
 
@@ -170,127 +170,120 @@ main p{
 }
 
 
-.section-content{
-    display: flex; 
-    flex-direction: row; 
-    gap:160px;
-    font-size: 32px; 
-    color: #0E0E0E;
-    justify-content: center;
-    align-items: center; 
-    text-align: left; 
-    margin: 40px 10% ;
-    max-width: 410.67;
-    max-height: 325px;
-    margin-top: 80px ;
+.section-content {
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 23px 10%;
+    height: 256px;
+}
+
+.card-2nd {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 24px;
+    width: 350px;
+    height: 260px;
     
-    
+    text-align: left;
 }
 
 .card-2nd img {
     width: 50px;
     height: 50px;
-    margin-bottom: 10px;
-    padding-top: 25px;
-
+    margin-bottom: 16px;
 }
 
-.card-2nd{
-    
-    border: 1px solid #e0e0e0;
-    border-radius: 8px;
-    padding: 24px;
-    
-    text-align: left;
-    margin-top: 32px;
-    
-   
-}
-
-.card-2nd h3{
+.card-2nd h3 {
     font-size: 20px;
     color: rgba(14, 14, 14, 0.8);
+    margin-bottom: 12px;
 }
 
-.card-2nd p{
+.card-2nd p {
     font-size: 16px;
     color: rgba(14, 14, 14, 0.7);
+    line-height: 1.5;
 }
 
-.blue-btn-learn-more{
+.card-2nd button {
     padding: 11px 20px;
     font-size: 16px;
     color: rgba(255, 255, 255, 1);
-    margin-top: 24px;
     border-radius: 10px;
+    margin-top: 16px;
+    border: none;
+    
+}
+
+.blue-btn-learn-more {
     background-color: rgba(84, 144, 245, 1);
-    border: none;
 }
 
-
-
-.green-btn-learn-more{
-    padding: 11px 20px;
-    font-size: 16px;
-    color: rgba(255, 255, 255, 1);
-    margin-top: 24px;
-    border-radius: 10px;
+.green-btn-learn-more {
     background-color: rgba(9, 161, 92, 1);
-    border: none;
 }
 
-
-.orange-btn-learn-more{
-    padding: 11px 20px;
-    font-size: 16px;
-    color: rgba(255, 255, 255, 1);
-    margin-top: 24px;
-    border-radius: 10px;
+.orange-btn-learn-more {
     background-color: rgba(255, 194, 57, 1);
-    border: none;
 }
 
-.blue{
+
+/* card-2nd background color */
+.blue {
     background-color: rgba(84, 144, 245, 0.2);
 }
 
-.green{
+.green {
     background-color: rgba(198, 228, 214, 1);
 }
-.orange{
-    background-color:rgba(247, 235, 207, 1);
+
+.orange {
+    background-color: rgba(247, 235, 207, 1);
 }
 
 
 
 .main-2nd-part{
     text-align: left;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.03) 2.884%, rgba(16, 16, 16, 0) 101.034%), 
+        url('../assets/quote-bg.png');
     background-color: rgba(255, 255, 255, 1);
     border-radius: 15px;
     margin: 24px 10%;
     padding: 24px; 
     height: 256px;
     margin-top: 32px;
+    background-repeat: no-repeat;
+    background-position: 55px 40px;
+
+    margin-top: 100px;
+    
 }
+
+
 
 .main-2nd-part p{
     font-size: 16px;
     color: rgba(14, 14, 14, 0.8);
-    margin-top: 500px;
+    margin-top: 50px;
+    margin-left: 24px;
     
-    margin: 24px;
 }
 
 .main-2nd-part h3{
     font-size: 20px;
-    margin-top: 2px;
+    margin-top: 50px;
     margin-left: 23px ;
+    color: rgba(14, 14, 14, 0.8);
 }
 
 .main-2nd-part h6{
     font-size: 16px;
     color: rgba(14, 14, 14, 0.8);
-    
+    margin-top: -20px;
     padding: 20px;
 
 }
