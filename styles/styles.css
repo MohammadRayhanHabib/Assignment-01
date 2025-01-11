@@ -145,7 +145,10 @@ body{
     margin-bottom: 10px;
     padding-top: 25px;
 
+
 }
+
+
 
 .card h3 {
     font-size: 20px;
@@ -447,6 +450,53 @@ td {
     font-size: 16px;
     color: rgba(14, 14, 14, 0.7);
 }
+.main-4th-part-title p{
+    display: flex;
+    text-align: left;
+    margin-top: 24px;
+    margin-right: 160px;
+    margin-left: 160px;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+
+.main-4th-part-contant3{
+    text-align: left;
+    margin-top: 32px;
+    margin-right: 160px;
+    padding-top: 48px;
+    padding-right: 48px;
+    padding-right: 48px;
+    padding-left: 48px;
+    height: 350px;
+    margin-left: 160px;
+    text-align: left;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 15px;
+
+}
+
+
+
+
+.main-4th-part-contant3 h2{
+    margin-left: 488px;
+    padding-top: 56px;
+    font-size:32px ;
+    color: rgba(14, 14, 14, 0.8);
+    text-align: left ;
+    margin-top: -335px;
+}
+
+.main-4th-part-contant3 p{
+    margin: 16px;
+    margin-top: 20px;
+    margin-right: 208px;
+    margin-left: 488px;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
 
 .news-img{
     margin-top: 1px;
@@ -505,8 +555,8 @@ td {
 
 .main-4th-part-contant2 h2{
     
-    caret-color: rgba(14, 14, 14, 1);
-    
+    color: rgba(14, 14, 14, 0.8);
+    font-weight: bold   ;
     font-size: 32px;
     margin-top: -290px;
 
