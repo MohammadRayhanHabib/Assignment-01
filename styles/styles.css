@@ -15,18 +15,22 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 16px 10%;
+    padding-top: 31px;
+    margin-right: 160px;
+    margin-left: 160px;
     
 }
 
 .navbar h3 {
     font-size: 24px;
     color: #0E0E0E;
+    margin-bottom: 51px;
     
 }
 
 .btn-sign-in {
     border: 1px solid #006A50;
+    margin-bottom: 51px;
     font-size: 16px;
     font-weight: bold;
     padding:  15px 30px;
@@ -45,7 +49,9 @@ body{
     justify-content: space-between;
     background-color: #C6E4D6;
     border-radius: 15px;
-    margin: 24px 10%;
+    
+    margin-right: 160px;
+    margin-left: 160px;
     padding: 32px; 
     height: 560px;
     
@@ -94,25 +100,29 @@ body{
 
 
 .section-title {
-    display: flex; 
-    flex-direction: column; 
-    
-    font-size: 32px; 
-    color: #0E0E0E;
+
     font-weight: bold;
-    justify-content: center; 
-    text-align: left; 
-    margin: 40px 10% ;
-    margin-top: 80px ;
+    color: #0E0E0E;
+    margin-top: 80px;
+    font-size: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 31px;
+    margin-right: 160px;
+    margin-left: 160px;
+    
 }
 
 .Optional-section-content {
+    margin-top: 80px;
+    font-size: 32px;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    align-items: flex-start;
-    margin: 23px 10%;
-    height: 256px;
+    align-items: center;
+    padding-top: 31px;
+    margin-right: 160px;
+    margin-left: 160px;
     
 }
 
@@ -124,6 +134,7 @@ body{
     
     text-align: left;
     margin-top: 32px;
+    
 }
 
 .card img {
@@ -148,12 +159,15 @@ body{
 }
 
 .main-part{
-    display: flex; 
-    flex-direction: column; 
-    justify-content: center; 
-    text-align: left; 
-    margin: 40px 10% ;
-    margin-top: 80px ;
+    
+    margin-top: 80px;
+    font-size: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 31px;
+    margin-right: 160px;
+    margin-left: 160px;
 }
 
 
@@ -171,13 +185,14 @@ main p{
 
 
 .section-content {
+    margin-top: 32px;
+    font-size: 32px;
     display: flex;
-    flex-direction: row;
-    gap: 200px;
     justify-content: space-between;
-    align-items: flex-start;
-    margin: 23px 10%;
-    height: 256px;
+    align-items: center;
+    padding-top: 31px;
+    margin-right: 160px;
+    margin-left: 160px;
 }
 
 .card-2nd {
@@ -214,6 +229,7 @@ main p{
     color: rgba(255, 255, 255, 1);
     border-radius: 10px;
     margin-top: 16px;
+    font-weight: bold;
     border: none;
     
 }
@@ -250,7 +266,7 @@ main p{
     text-align: left;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.03) 2.884%, rgba(16, 16, 16, 0) 101.034%), 
         url('../assets/quote-bg.png');
-        
+
     background-color: rgba(255, 255, 255, 1);
     border-radius: 15px;
     margin: 24px 10%;
@@ -258,11 +274,14 @@ main p{
     height: 256px;
     margin-top: 32px;
     background-repeat: no-repeat;
-    background-position: 55px 40px;
-
-    margin-top: 100px;
+    background-position: 50px 50px;
+    padding-top: 31px;
+    margin-right: 160px;
+    margin-left: 160px;
+    margin-top: 80px;
     
 }
+    
 
 
 
@@ -287,4 +306,211 @@ main p{
     margin-top: -20px;
     padding: 20px;
 
+}
+.main-3rd-part{
+    text-align: left;
+    border-radius: 15px;
+    margin: 24px 10%;
+    height: 256px;
+    margin-top: 80px;
+
+}
+
+.table-container{
+    font-size: 32px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 31px;
+    margin-right: 160px;
+    margin-left: 160px;
+    background-color: rgba(255, 255, 255, 1);
+    text-align: left;
+    align-items: center;
+    padding: 32px;
+    border-radius: 8px;
+    margin-top: -200px;
+    
+}
+
+
+/* table section start from herre  */
+  
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    border: 1px solid rgba(14, 14, 14, 0.15); /*this border add outside hr line in table */  
+    
+    
+
+}
+  
+th, td {
+    padding: 32px;
+    text-align: left;
+
+     
+}
+  
+th {
+    background-color: rgba(198, 228, 214, 1);
+    color: rgba(14, 14, 14, 1);
+    font-size: 20px;
+    
+    
+    
+}
+  
+td {
+    
+    font-size: 16px;
+    color: rgba(14, 14, 14, 1);
+    border: 1px solid rgba(14, 14, 14, 0.15);    /*this border add inside hr line in table */       
+    font-weight: bold;
+  }
+
+
+
+  .downKey select {
+    padding: 12px 16px;
+    font-size: 16px;
+    border: 1px solid rgba(14, 14, 14, 1);
+    border-radius: 5px;
+    background-color: rgba(198, 228, 214, 1);
+    color: rgba(14, 14, 14, 1);
+    font-weight: bold;
+    margin-left: 110px;
+}
+
+
+/* table section end here  */
+
+
+
+.main-4th-part-title h2{
+    display: flex;
+    text-align: left;
+    margin-right: 160px;
+    margin-left: 160px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 80px;
+    caret-color: rgba(14, 14, 14, 1);
+
+}
+
+
+.main-4th-part-title p{
+    display: flex;
+    text-align: left;
+    margin-top: 24px;
+    margin-right: 160px;
+    margin-left: 160px;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+
+.main-4th-part-contant{
+    text-align: left;
+    margin-right: 160px;
+    padding: 48px;
+    margin-top: 32px;
+    margin-left: 160px;
+    margin-right: 160px;
+    /* display: flex; */
+    text-align: left;
+    height: 30vh;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 15px;
+    padding: 48px;
+}
+
+.main-4th-part-contant h2{
+    margin-left: 488px;
+    font-size:32px ;
+    color: rgba(14, 14, 14, 0.8);
+    text-align: left ;
+    margin-top: -308px;
+}
+
+.main-4th-part-contant p{
+    margin: 16px;
+    margin-top: 20px;
+    margin-right: 208px;
+    margin-left: 488px;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+.news-img{
+    margin-top: 1px;
+    margin-left: 488px;
+    width: 134px;
+    height: 40px;
+    
+}
+.shared-img{
+    border-radius: 20px ;
+    width: 408px;
+    height: 306;
+    
+}
+
+
+
+.RedMore-btn{
+    margin-left: 488px ;
+    margin-top: 32px;
+}
+.shared-btn{
+    font-size: 18px;
+    color: rgba(255, 255, 255, 1);
+    padding: 13px 16px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(0, 106, 80, 1);
+}
+
+
+
+
+/* '''''''''''''''''''''''''' */
+
+
+
+
+.main-4th-part-contant2{
+    text-align: end;
+    margin-right: 160px;
+    padding: 48px;
+    margin-top: 32px;
+    margin-left: 160px;
+    margin-right: 160px;
+    /* display: flex; */
+    text-align: left;
+    height: 30vh;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 15px;
+    padding: 48px;
+}
+
+
+
+.main-4th-part-contant2 h2{
+    margin-left: 488px;
+    font-size:32px ;
+    color: rgba(14, 14, 14, 0.8);
+    text-align: left ;
+    margin-top: -308px;
+}
+
+.main-4th-part-contant2 p{
+    margin: 16px;
+    margin-top: 20px;
+    margin-right: 208px;
+    margin-left: 488px;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
 }
