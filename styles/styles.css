@@ -115,7 +115,7 @@ body{
 }
 
 .Optional-section-content {
-    margin-top: 80px;
+    margin-top: 32px;
     font-size: 32px;
     display: flex;
     justify-content: space-between;
@@ -546,12 +546,14 @@ td {
     margin-left: 160px;
     margin-right: 160px;
     margin-top: 80px;
+    text-align: center;
 }
 
 .footer h2{
     color: rgba(14, 14, 14, 1) ;
     font-size: 40px;
     font-weight: bold;
+    
 }
 .footer p{
     color: rgba(14, 14, 14, 0.7);
@@ -563,7 +565,7 @@ td {
 
 .donate-money{
     display:flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin-left: 180px;
     margin-right: 180px;
     margin-top:  32px; 
@@ -571,8 +573,9 @@ td {
 
 .donate-money h1{
     border: 1px solid rgba(14, 14, 14, 0.15);
-    padding: 48px;
+    padding: 40px;
     border-radius: 20px;
+    
     font-size: 40px;
     font-weight: bold;
     color: rgba(14, 14, 14, 0.8);
@@ -720,4 +723,7 @@ td {
 
 .footer-end img {
     margin-top: 32px;
+    
+    padding: 10px;
+    
 }
