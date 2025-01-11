@@ -414,18 +414,19 @@ td {
 
 .main-4th-part-contant{
     text-align: left;
-    margin-right: 160px;
-    padding: 48px;
     margin-top: 32px;
-    margin-left: 160px;
     margin-right: 160px;
-    /* display: flex; */
+    padding: 48px 48px;
+    height: 315px;
+    margin-left: 160px;
     text-align: left;
-    height: 30vh;
     background-color: rgba(255, 255, 255, 1);
     border-radius: 15px;
-    padding: 48px;
+
 }
+
+
+
 
 .main-4th-part-contant h2{
     margin-left: 488px;
@@ -482,35 +483,64 @@ td {
 
 
 .main-4th-part-contant2{
-    text-align: end;
-    margin-right: 160px;
-    padding: 48px;
+    
+    text-align: right;
     margin-top: 32px;
-    margin-left: 160px;
     margin-right: 160px;
-    /* display: flex; */
+    padding: 48px 48px;
+    height: 315px;
+    margin-left: 160px;
     text-align: left;
-    height: 30vh;
     background-color: rgba(255, 255, 255, 1);
     border-radius: 15px;
-    padding: 48px;
+    
+    
+
 }
 
 
 
 .main-4th-part-contant2 h2{
-    margin-left: 488px;
-    font-size:32px ;
-    color: rgba(14, 14, 14, 0.8);
-    text-align: left ;
-    margin-top: -308px;
+    
+    caret-color: rgba(14, 14, 14, 1);
+    
+    font-size: 32px;
+    margin-top: -290px;
+
 }
 
 .main-4th-part-contant2 p{
-    margin: 16px;
-    margin-top: 20px;
-    margin-right: 208px;
-    margin-left: 488px;
+   
+    
     font-size: 16px;
     color: rgba(14, 14, 14, 0.7);
 }
+
+
+
+.shared-img2 {
+    border-radius: 20px;
+    width: 408px;
+    height: 306px; 
+    display: flex;
+    margin-left: auto;
+}
+
+
+
+
+.news-img2{
+    margin-top: 1px;
+    
+    width: 134px;
+    height: 40px;
+    align-items: end;
+    
+}
+.RedMore-btn2{
+    margin-top: 20px;
+}
+
+
+
+
