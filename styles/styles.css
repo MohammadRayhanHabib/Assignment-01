@@ -89,7 +89,7 @@ body{
     background-color: #006A50;
     color: rgba(255, 255, 255, 1)   ;
     
-    font-size: 16px; 
+    font-size: 18px; 
 }
 
 .hero-img {
@@ -486,7 +486,7 @@ td {
     font-size:32px ;
     color: rgba(14, 14, 14, 0.8);
     text-align: left ;
-    margin-top: -335px;
+    margin-top: -380px;
 }
 
 .main-4th-part-contant3 p{
@@ -508,7 +508,7 @@ td {
 .shared-img{
     border-radius: 20px ;
     width: 408px;
-    height: 306;
+    height: 306px;
     
 }
 
