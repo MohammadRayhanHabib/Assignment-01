@@ -310,10 +310,11 @@ main p{
 .main-3rd-part{
     text-align: left;
     border-radius: 15px;
-    margin: 24px 10%;
+    margin-left: 160px;
+    margin-right: 160px;
     height: 256px;
     margin-top: 80px;
-
+    margin-bottom: 24px;
 }
 
 .table-container{
