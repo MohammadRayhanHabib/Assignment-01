@@ -25,6 +25,7 @@ body{
     font-size: 24px;
     color: #0E0E0E;
     margin-bottom: 51px;
+    font-size: 32px;
     
 }
 
@@ -663,9 +664,9 @@ td {
 }
 
 .input-donate-amount textarea::placeholder{
-    font-size: 20px;
+    font-size: 22px;
     color: rgba(14, 14, 14, 0.3);
-    margin-top: 20px;
+    margin-top: 25px;
 }
 
 
@@ -698,12 +699,13 @@ td {
     text-align: center;
     height: 395px;
     margin-top: 80px;
-    padding: 80px;
+    padding: 80px 80px;
     border-radius: 15px;
     background-color: rgba(198, 228, 214, 1);
 }
 
 .footer-subscribe-secton h1{
+    margin-top: 80px;
     font-size:40;
     color: rgba(14, 14, 14, 1);
     font-weight: bold;
